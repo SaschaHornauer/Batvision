@@ -4,7 +4,7 @@ numpy==1.16.3
 torch==1.0.0
 torchvision==0.2.2.post3
 pandas==0.24.2
-Pillow==6.1.0
+Pillow
 tensorboardX==1.8
 opencv-python==3.4.6
 argparse==1.4.0
