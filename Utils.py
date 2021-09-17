@@ -11,11 +11,12 @@ class encode_block(nn.Module):
             nn.BatchNorm2d(out_channels),
             nn.LeakyReLU(0.2, True)
         )
-        self.conv = nn.Sequential(
-            nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1),
-            nn.BatchNorm2d(out_channels),
-            nn.LeakyReLU(0.2, True)
-            )
+        if self.double: # Quick bugfix without testing. DDP will not work if parameters are defined which are not used in the computation.
+            self.conv = nn.Sequential(
+                nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1),
+                nn.BatchNorm2d(out_channels),
+                nn.LeakyReLU(0.2, True)
+                )
 
     def forward(self, x):
         x = self.down_conv(x)
