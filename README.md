@@ -1,5 +1,5 @@
 # BatVision: Learning to See 3D Spatial Layout with Two Ears
-Code of the original Batvision paper for reference. We will add code from the newest paper soon.
+Code of the original Batvision paper for reference. It is no longer actively maintained but we will add code from the newest paper soon and restructure this repo to see straighforward which code goes with which paper.
 
 ### We just released the dataset! Please find details how to download in the dataset paper and check out our other related work. 
 
