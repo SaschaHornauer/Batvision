@@ -3,7 +3,7 @@ Collection of synchronized binaural echos and depth images of office scenes.
 
 ### We just released the dataset! Please find details how to download in the dataset paper and check out our other related work. 
 
-[Dataset Paper (PrePrint)](https://arxiv.org/abs/2303.07257v2)
+[The Audio-Visual BatVision Dataset for Research on Sight and Sound (PrePrint)](https://arxiv.org/abs/2303.07257v2)
 
 [BatVision: Learning to See 3D Spatial Layout with Two Ears](https://ieeexplore.ieee.org/iel7/9187508/9196508/09196934.pdf)
 
