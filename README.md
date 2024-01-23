@@ -10,3 +10,5 @@ Code of the original Batvision paper for reference. It is no longer actively mai
 [BatVision with GCC-PHAT Features for Better Sound to Vision Predictions](https://arxiv.org/abs/2006.07995)
 
 ### Note: A bugfix was added in an effort to make the code compatible to be used with Data Distributed Parallel however there is no long term experience with using DDP with this code so please report issues if you find bugs. 
+
+### Note2: Because of the forced 2FA of Github.com this repository may soon become abandoned. Please see https://amandinebtto.github.io/Batvision-Dataset/ for all new developments.
