@@ -1,3 +1,10 @@
+# Deprecation Warning: 
+
+Because of forced 2FA of Github.com this repository moved to https://codeberg.org/SaschaHornauer/Batvision
+
+Please find any future updates there. Old content is kept here to avoid breaking old links.
+
+
 # BatVision: Learning to See 3D Spatial Layout with Two Ears
 Code of the original Batvision paper for reference. It is no longer actively maintained but we will add code from the newest paper soon and restructure this repo to see straighforward which code goes with which paper.
 
